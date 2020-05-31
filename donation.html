@@ -1,22 +1,41 @@
 <!DOCTYPE html>
-<link href="default.css" rel="stylesheet" type="text/css" media="all" />
+<link href="stylesheet.css" rel="stylesheet" type="text/css" media="all" />
 <link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
 </head>
-<body>
+<body class = "sadpanda">
 <div id="header-wrapper">
 	<div id="header" class="container">
 		<div id="logo">
-			<h1><a href="#">Help save endangered animals</a></h1>
+			<h1><a href="#">Save the Pandas</a></h1>
 			<div id="menu">
 				<ul>
-					<li class="active"><a href="#" accesskey="1" title="">Homepage</a></li>
-					<li><a href="#" accesskey="3" title="">About Us</a></li>
-					<li><a href="#" accesskey="5" title="">Donate now</a></li>
+					<li><a href="index.html" accesskey="1" title="">Homepage</a></li>
+					<li><a href="aboutus.html" accesskey="3" title="">About Us</a></li>
+					<li class="active"><a href="donation.html" accesskey="5" title="">Donate now</a></li>
 				</ul>
 			</div>
 		</div>
 	</div>
 </div>
+
+<div class = "donation-box">
+<div class="fields">
+	<input type="text" id="firstName" placeholder="First Name"> </input>
+	<input type="text" id="lastName" placeholder="Last Name"> </input>
+	<input type="text" id="email" placeholder="Email"> </input>
+	<p class = "justtext">Any small donation could help save hundreds of pandas!</p>
+	<li>
+	<p class = "justtext">Donate now today!</p>
+	
 </div>
-</body>
+				
+<div class="amount">
+	<div class="button">$30</div>
+	<div class="button">$50</div>
+	<div class="button">$100</div>
+	<div class="button">$<input type="text" class="set-amount" placeholder=""> </input></div>
+</div>
+
+<a  href = "https://www.pandasinternational.org/" class="donate-button"></i> Donate Now</div>
+</div>
 </html>
